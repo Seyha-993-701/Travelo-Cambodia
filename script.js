@@ -31,7 +31,7 @@ class HeroSlider {
         const backgrounds = [
             'image/Angkor-Wat.jpg', // Angkor Wat
             '/image/kep.jpg', // Phnom Penh
-            '/image/Koh-kong.jpg'  // Koh Kong
+            'https://www.phnompenhrealestate.net/wp-content/uploads/2020/12/ss-kk.jpg'  // Koh Kong
         ];
         
         this.slides.forEach((slide, index) => {
