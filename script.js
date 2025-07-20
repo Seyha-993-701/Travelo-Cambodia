@@ -31,7 +31,7 @@ class HeroSlider {
         const backgrounds = [
             'image/Angkor-Wat.jpg', // Angkor Wat
             '/image/kep.jpg', // Phnom Penh
-            '/image/Koh-kong.jpeg'  // Koh Kong
+            '/image/Koh-kong.jpg'  // Koh Kong
         ];
         
         this.slides.forEach((slide, index) => {
