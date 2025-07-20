@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travelo - Discover Cambodia</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+
+    <!-- AOS css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Travelo</h2>
+        </div>
+        <ul class="nav-menu">
+          <li class="nav-item">
+            <a href="#home" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#destinations" class="nav-link">Destinations</a>
+          </li>
+          <li class="nav-item">
+            <a href="#about" class="nav-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Contact</a>
+          </li>
+        </ul>
+        <div class="hamburger">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero Section with Slider -->
+    <section id="home" class="hero">
+      <div class="slider-container">
+        <div class="slide active" data-bg="/image/Angkor-Wat.jpg">
+          <div class="slide-content">
+            <h1 class="slide-title">Angkor Wat Temple</h1>
+            <p class="slide-description">
+              Discover the magnificent ancient temple complex, a UNESCO World
+              Heritage site and symbol of Cambodia
+            </p>
+            <button class="cta-button">Explore Now</button>
+          </div>
+        </div>
+        <div class="slide" data-bg="/image/kep.jpg">
+          <div class="slide-content">
+            <h1 class="slide-title">Kep Province</h1>
+            <p class="slide-description">
+              Experience tranquil coastal beauty with traditional stilt houses,
+              fresh seafood, and stunning sunsets over calm waters
+            </p>
+            <button class="cta-button">Discover More</button>
+          </div>
+        </div>
+        <div class="slide" data-bg="/image/Koh-kong.jpeg">
+          <div class="slide-content">
+            <h1 class="slide-title">Koh Kong</h1>
+            <p class="slide-description">
+              Discover pristine beaches, lush jungles, and vibrant wildlife in
+              this eco-tourism paradise.
+            </p>
+            <button class="cta-button">Adventure Awaits</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slider Navigation -->
+      <div class="slider-nav">
+        <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+        <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+      </div>
+
+      <!-- Slider Indicators -->
+      <div class="slider-indicators">
+        <span class="indicator active" data-slide="0"></span>
+        <span class="indicator" data-slide="1"></span>
+        <span class="indicator" data-slide="2"></span>
+      </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+      <div class="container">
+        <div class="section-header">
+          <h2>Popular Destinations</h2>
+          <p>Discover the most beautiful places in Cambodia</p>
+        </div>
+        <div class="destinations-grid" data-aos="fade-up">
+          <div class="destination-card">
+            <div class="card-image">
+              <img src="/image/Angkor-Wat.jpg" alt="Angkor Wat" />
+              <div class="card-overlay">
+                <h3>Angkor Wat</h3>
+                <p>Ancient Wonder</p>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <div class="card-image">
+              <img src="/image/Phnom-Penh.png" alt="Phnom Penh" />
+              <div class="card-overlay">
+                <h3>Phnom Penh</h3>
+                <p>Capital City</p>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <div class="card-image">
+              <img src="/image/Koh-Kong.jpeg" alt="Koh Kong" />
+              <div class="card-overlay">
+                <h3>Koh Kong</h3>
+                <p>Natural Paradise</p>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <div class="card-image">
+              <img src="/image/kep.jpg" alt="Kep" />
+              <div class="card-overlay">
+                <h3>Kep</h3>
+                <p>Coastal Charm</p>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <div class="card-image">
+              <img src="/image/kampot.jpg" alt="Kampot" />
+              <div class="card-overlay">
+                <h3>Kampot</h3>
+                <p>Riverside Paradise</p>
+              </div>
+            </div>
+          </div>
+          <div class="destination-card">
+            <div class="card-image">
+                <img src="/image/Angkor-wat.jpg" alt="Siem Reap" />
+                <div class="card-overlay">
+                   <h3>Siem Reap</h3>
+                   <p>
+                       Gateway to the Angkor temples
+                    </p>
+                </div>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="about-content">
+          <div class="about-text">
+            <h2>About Cambodia</h2>
+            <p>
+              Cambodia is a Southeast Asian nation whose landscape spans
+              low-lying plains, the Mekong Delta, mountains and Gulf of Thailand
+              coastline. Its capital, Phnom Penh, is home to the art deco
+              Central Market, glittering Royal Palace and the National Museum's
+              historical and archaeological exhibits.
+            </p>
+            <p>
+              The country is famous for Angkor Wat, an enormous Buddhist temple
+              complex built during the Khmer Empire. Cambodia offers visitors a
+              unique blend of ancient history, vibrant culture, and natural
+              beauty.
+            </p>
+            <div class="stats">
+              <div class="stat">
+                <h3>15M+</h3>
+                <p>Population</p>
+              </div>
+              <div class="stat">
+                <h3>181K</h3>
+                <p>Square KM</p>
+              </div>
+              <div class="stat">
+                <h3>1000+</h3>
+                <p>Temples</p>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img
+              src="/image/bayon-temple.png"
+              alt="Cambodia Culture"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2>Plan Your Journey</h2>
+          <p>Get in touch with us to plan your perfect Cambodia adventure</p>
+        </div>
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Phnom Penh, Cambodia</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+855 12 345 678</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>info@travelo-cambodia.com</p>
+              </div>
+            </div>
+          </div>
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" placeholder="Your Name" required />
+            </div>
+            <div class="form-group">
+              <input type="email" placeholder=" Your Email " required />
+            </div>
+            <div class="form-group">
+              <textarea placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <h3>Travelo</h3>
+            <p>
+              Discover the beauty and wonder of Cambodia with us. Your adventure
+              starts here.
+            </p>
+            <div class="social-links">
+              <a href="#"><i class="fab fa-facebook"></i></a>
+              <a href="#"><i class="fab fa-instagram"></i></a>
+              <a href="#"><i class="fab fa-twitter"></i></a>
+              
+              <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+          <div class="footer-section">
+            <h4>Quick Links</h4>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#destinations">Destinations</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Destinations</h4>
+            <ul>
+              <li><a href="#">Angkor Wat</a></li>
+              <li><a href="#">Phnom Penh</a></li>
+              <li><a href="#">Koh Kong</a></li>
+              <li><a href="#">Siem Reap</a></li>
+            </ul>
+          </div>
+          <div class="footer-section">
+            <h4>Contact Info</h4>
+            <p><i class="fas fa-map-marker-alt"></i> Phnom Penh, Cambodia</p>
+            <p><i class="fas fa-phone"></i> +855 12 345 678</p>
+            <p><i class="fas fa-envelope"></i> info@travelo-cambodia.com</p>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2024 Travelo Cambodia. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
