@@ -29,7 +29,7 @@ class HeroSlider {
     init() {
         // Set background images for slides
         const backgrounds = [
-            'https://www.tripsavvy.com/thmb/74SaLzydFMxwf_uDPZn6TFuRERM=/4856x3237/filters:no_upscale():max_bytes(150000):strip_icc()/sunset-at-angkor-wat--siem-reap--cambodia-640432454-5c327edf46e0fb00016ccb6c.jpg', // Angkor Wat
+            '/image/Angkor-Wat.jpg', // Angkor Wat
             '/image/kep.jpg', // Phnom Penh
             '/image/Koh-Kong.jpg'  // Koh Kong
         ];
